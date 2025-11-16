@@ -14,7 +14,6 @@
 
 Kullanıcılar **Good**, **Neutral** veya **Bad** seçeneklerinden birini seçerek geri bildirim verebilir. Uygulama, geri bildirimleri anlık olarak gösterir ve sayfa yenilense bile verileri **localStorage** ile korur. Olumlu geri bildirim yüzdesi dinamik renk kodlamasıyla gösterilir.
 
-![Demo Küçük Resim](./screenshots/feedback-preview.png)
 
 ---
 
