@@ -22,20 +22,6 @@ Bu proje, **Sip Happens Café** için geliştirilmiş modern ve responsive bir g
 
 ---
 
-## **Ekran Görüntüleri / GIF**
-
-### Masaüstü Görünümü
-![Masaüstü Görünümü](./screenshots/desktop.png)
-
-### Mobil Görünüm
-![Mobil Görünümü](./screenshots/mobile.png)
-
-### Canlı Etkileşim (GIF)
-![Canlı Geri Bildirim](./screenshots/feedback-demo.gif)
-
-> Not: GIF veya ekran görüntülerini `screenshots` klasörüne eklemeyi unutmayın.
-
----
 
 ## **Kullanılan Teknolojiler**
 
