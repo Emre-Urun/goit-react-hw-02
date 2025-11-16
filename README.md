@@ -1,16 +1,79 @@
-# React + Vite
+# Sip Happens Café - Geri Bildirim Widget'ı
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Canlı Demo](https://goitt-react-hw-02.vercel.app/)  
 
-Currently, two official plugins are available:
+Bu proje, **Sip Happens Café** için geliştirilmiş modern ve responsive bir geri bildirim uygulamasıdır. Kullanıcılar, servis hakkında **Good**, **Neutral** veya **Bad** şeklinde geri bildirim bırakabilir. Uygulama, geri bildirimleri **anlık olarak gösterir**, sayfa yenilense bile verileri **localStorage** ile korur ve olumlu geri bildirim yüzdesini dinamik olarak renk kodlamasıyla belirtir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## **Özellikler**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Good, Neutral ve Bad kategorilerinde geri bildirim toplama.
+- Toplam geri bildirim ve olumlu geri bildirim yüzdesi görüntüleme.
+- Olumlu geri bildirim yüzdesine göre renk kodlaması:
+  - %70 ve üzeri → Yeşil
+  - %50 - 69 → Turuncu
+  - %30 - 49 → Koyu Turuncu
+  - %0 - 29 → Kırmızı
+- Neutral (Orta) geri bildirim **total’e dahil edilmez**.
+- Reset butonu ile tüm geri bildirimleri sıfırlama (kayma olmadan).
+- Veriler **localStorage** ile saklanır.
+- Modern, estetik ve **responsive tasarım**, mobil uyumlu.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## **Ekran Görüntüleri / GIF**
+
+### Masaüstü Görünümü
+![Masaüstü Görünümü](./screenshots/desktop.png)
+
+### Mobil Görünüm
+![Mobil Görünümü](./screenshots/mobile.png)
+
+### Canlı Etkileşim (GIF)
+![Canlı Geri Bildirim](./screenshots/feedback-demo.gif)
+
+> Not: GIF veya ekran görüntülerini `screenshots` klasörüne eklemeyi unutmayın.
+
+---
+
+## **Kullanılan Teknolojiler**
+
+- React.js (Functional Components, Hooks)
+- CSS Modules
+- LocalStorage API
+- Modern Responsive Tasarım
+
+---
+
+## **Kurulum ve Çalıştırma**
+
+1. Depoyu klonlayın:
+
+```bash
+git clone https://github.com/username/sip-happens-feedback.git
+
+2. Depoyu klonlayın:
+cd sip-happens-feedback
+
+3. Gerekli bağımlılıkları yükleyin:
+npm install
+
+4. Uygulamayı başlatın:
+npm start
+
+## **Kullanım**
+
+1. “Good”, “Neutral” veya “Bad” butonlarına tıklayarak geri bildirim bırakın.
+
+2. Toplam geri bildirim ve olumlu yüzdelik değer Feedback kutusunda gösterilecektir.
+
+3. Reset butonuna tıklayarak tüm geri bildirimleri sıfırlayabilirsiniz. (Reset butonunun yeri sabittir, buton gizlense bile diğer butonlar kaymaz.)
+
+4. Sayfa yenilense bile geri bildirimler kaybolmaz; localStorage üzerinden korunur.
+
+## Geliştirme ve Katkı
+
+Projeye katkı sağlamak isterseniz, pull request gönderebilirsiniz.
+
+Hataları veya iyileştirme önerilerini issue olarak açabilirsiniz.
