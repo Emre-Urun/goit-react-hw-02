@@ -36,17 +36,16 @@ Bu proje, **Sip Happens Café** için geliştirilmiş modern ve responsive bir g
 
 1. Depoyu klonlayın:
 
-bash
-git clone https://github.com/username/sip-happens-feedback.git
+```git clone https://github.com/username/sip-happens-feedback.git``
 
 2. Depoyu klonlayın:
-cd sip-happens-feedback
+```cd sip-happens-feedback``
 
 3. Gerekli bağımlılıkları yükleyin:
-npm install
+```npm install``
 
 4. Uygulamayı başlatın:
-npm start
+```npm start``
 
 ## **Kullanım**
 
