@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttonGood,
+.buttonNeutral,
+.buttonBad,
+.buttonReset {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.2s ease;
+  min-width: 100px; /* tüm butonları aynı genişlikte tutar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buton renkleri */
+.buttonGood {
+  background-color: #16a34a;
+}
+.buttonGood:hover {
+  background-color: #15803d;
+}
+
+.buttonNeutral {
+  background-color: #f59e0b;
+}
+.buttonNeutral:hover {
+  background-color: #b45309;
+}
+
+.buttonBad {
+  background-color: #dc2626;
+}
+.buttonBad:hover {
+  background-color: #b91c1c;
+}
+
+.buttonReset {
+  background-color: #3b82f6;
+}
+.buttonReset:hover {
+  background-color: #2563eb;
+}
+
+/* Reset butonu gizli ise yer kaplar ama görünmez */
+.hidden {
+  visibility: hidden;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .buttonGood,
+  .buttonNeutral,
+  .buttonBad,
+  .buttonReset {
+    min-width: 80px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
