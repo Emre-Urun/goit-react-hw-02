@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-purple?logo=vercel&logoColor=white)
-![MIT License](https://img.shields.io/badge/License-MIT-blue)
 ![Issues](https://img.shields.io/github/issues/username/sip-happens-feedback)
 ![Last Commit](https://img.shields.io/github/last-commit/username/sip-happens-feedback)
 
