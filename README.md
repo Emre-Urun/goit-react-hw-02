@@ -6,8 +6,6 @@
 ![Issues](https://img.shields.io/github/issues/username/sip-happens-feedback)
 ![Last Commit](https://img.shields.io/github/last-commit/username/sip-happens-feedback)
 
-[![Live Demo](https://goitt-react-hw-02.vercel.app/)
-
 ---
 
 ## **📋 Proje Hakkında**
