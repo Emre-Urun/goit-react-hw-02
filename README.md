@@ -36,7 +36,7 @@ Bu proje, **Sip Happens Café** için geliştirilmiş modern ve responsive bir g
 
 1. Depoyu klonlayın:
 
-```bash
+bash
 git clone https://github.com/username/sip-happens-feedback.git
 
 2. Depoyu klonlayın:
